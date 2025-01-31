@@ -17,8 +17,8 @@ class BusinessCardApp extends StatelessWidget {
             children: [
               // Circular GIF
               Container(
-                width: 150,
-                height: 150,
+                width: 200,
+                height: 200,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   border: Border.all(
@@ -35,7 +35,7 @@ class BusinessCardApp extends StatelessWidget {
               ),
               SizedBox(height: 20),
               // Name
-              Text(
+              const Text(
                 'Fayez Mamdoh',
                 style: TextStyle(
                   fontFamily: 'Pacifico-Regular',
@@ -45,7 +45,7 @@ class BusinessCardApp extends StatelessWidget {
               ),
               SizedBox(height: 10),
               // Role
-              Text(
+              const Text(
                 'Flutter Developer',
                 style: TextStyle(
                   fontSize: 18,
@@ -61,7 +61,7 @@ class BusinessCardApp extends StatelessWidget {
                   color: Colors.white.withOpacity(0.1),
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: Row(
+                child: const Row(
                   children: [
                     Icon(
                       Icons.phone,
@@ -88,7 +88,7 @@ class BusinessCardApp extends StatelessWidget {
                   color: Colors.white.withOpacity(0.1),
                   borderRadius: BorderRadius.circular(20),
                 ),
-                child: Row(
+                child: const Row(
                   children: [
                     Icon(
                       Icons.email,
